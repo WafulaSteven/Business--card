@@ -3,6 +3,9 @@
 body{
     margin:20px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top:15% ;
+    margin-bottom:15% ;
 }
 .avatar{
     width:300px;
