@@ -4,8 +4,8 @@ body{
     margin:20px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    margin-top:15% ;
-    margin-bottom:15% ;
+    
+
 }
 .avatar{
     width:300px;
@@ -21,10 +21,10 @@ body{
     background-color:#ddebf8;
     justify-content: space-around;
     width: 450px;
-    margin-left: auto;
-    margin-right: auto;
+   
     border-bottom: 2px solid maroon;
-    margin:0 auto ;
+   
+    align-items: start;
 }
 .border-blue{
    border: 1px  rgba(109, 166, 219, 0.322)  ;
@@ -35,9 +35,46 @@ body{
 
    
 }
+.card:hover{
+    width:480px;
+    background-color: rgb(238, 107, 107);
+    height:315px ;
+}
+.steven{
+    border-bottom: 2px solid black;
+}
+#steven{
+    text-align: center;
+}
+.img-steven{
+    border-radius:10px ;
+}
+.box{
 
+}
 
-
+.stevo{
+    border: none;
+    background-color:#ddebf8 ;
+    
+    margin-left: 15px;
+    margin-right:15px ;
+    display: flex;
+    flex-direction: row;
+}
+#img-stevo{
+    width:150px ;
+    height:290px ;
+    border-radius:400px ;
+    margin-left:15px ;
+    margin-right:15px ;
+}
+#team{
+     width:150px ;
+    height:290px ;
+    border-radius:400px ; 
+    
+}
 
 
 
